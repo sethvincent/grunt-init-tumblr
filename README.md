@@ -5,7 +5,7 @@
 ### Template overview:
  - app.js (empty)
  - style.css (empty)
- - index.html (links to bower dependencies, basic html structure)
+ - index.html (links to bower dependencies, basic html structure, skeleton tumblr theme with commonly used template tags)
  - Gruntfile.js (watches *.js, *.css, and *.html files and automatically rebuilds dev server on file save)
  - component.json (default browser dependencies: normalize.css, html5shiv, jquery)
 
