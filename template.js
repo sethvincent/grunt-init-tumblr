@@ -32,8 +32,9 @@ exports.template = function(grunt, init, done){
       'grunt-contrib-connect': '~0.1.2',
       'grunt-contrib-livereload': '~0.1.2',
       'grunt-regarde': '~0.1.1',
-      'grunt-contrib-cssmin', '~0.6.1',
-      'grunt-contrib-uglify', '~0.2.1'
+      'grunt-contrib-cssmin': '~0.6.1',
+      'grunt-contrib-uglify': '~0.2.1',
+      'grunt-contrib-clean': '~0.4.1'
     };
 
     var files = init.filesToCopy(props);
