@@ -1,0 +1,10 @@
+{
+  "name": "{%= name %}",
+  "version": "0.0.2",
+  "dependencies": {
+    "normalize-css": "~2.1.0",
+    "simple-styles": "~0.0.3",
+    "html5shiv": "~3.6.2",
+    "jquery": "~1.9.1"
+  }
+}
