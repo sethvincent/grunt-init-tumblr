@@ -9,7 +9,7 @@ var folderMount = function folderMount(connect, point) {
 module.exports = function (grunt) {
   // Project configuration.
   grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json');
+    pkg: grunt.file.readJSON('package.json'),
 
     connect: {
       livereload: {
