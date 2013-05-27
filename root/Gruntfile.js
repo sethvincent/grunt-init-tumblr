@@ -37,7 +37,8 @@ module.exports = function (grunt) {
       js: {
         files: {
           // make sure to add other js files your project depends on to the array:
-          'release/' + pkg.name + '.min.v' + pkg.version + '.js': ['app.js']
+          'release/<%= pkg.name %>.min.v<%= pkg.version %>.js': ['app.js'],
+          'release/html5shiv.js': ['components/html5shiv/dist/html5shiv.js']
         }
       }
     },
@@ -46,7 +47,7 @@ module.exports = function (grunt) {
       combine: {
         files: {
           // make sure to add other css files your project depends on to the array:
-          'release/' + pkg.name + '.min.v' + pkg.version + '.css': ['style.css']
+          'release/<%= pkg.name %>.min.v<%= pkg.version %>.css': ['components/normalize-css/normalize.css', 'style.css']
         }
       }
     },
